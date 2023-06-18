@@ -1,0 +1,6 @@
+C:\Users\Анастасия\Downloads\pract3--plaer-main (1)\pract3--plaer-main\XML_LIB\bin\Debug\XML_LIB.dll
+C:\Users\Анастасия\Downloads\pract3--plaer-main (1)\pract3--plaer-main\XML_LIB\bin\Debug\XML_LIB.pdb
+C:\Users\Анастасия\Downloads\pract3--plaer-main (1)\pract3--plaer-main\XML_LIB\obj\Debug\XML_LIB.csproj.AssemblyReference.cache
+C:\Users\Анастасия\Downloads\pract3--plaer-main (1)\pract3--plaer-main\XML_LIB\obj\Debug\XML_LIB.csproj.CoreCompileInputs.cache
+C:\Users\Анастасия\Downloads\pract3--plaer-main (1)\pract3--plaer-main\XML_LIB\obj\Debug\XML_LIB.dll
+C:\Users\Анастасия\Downloads\pract3--plaer-main (1)\pract3--plaer-main\XML_LIB\obj\Debug\XML_LIB.pdb
