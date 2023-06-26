@@ -42,8 +42,7 @@
             </Image.OpacityMask>
         </Image>
         <ListBox x:Name="PlaylistListBox" HorizontalAlignment="Left" Height="232" VerticalAlignment="Top" Width="609" SelectionChanged="PlaylistListBox_SelectionChanged" Drop="PlaylistListBox_Drop" Grid.ColumnSpan="6" MouseDoubleClick="PlaylistListBox_MouseDoubleClick" Margin="9,33,0,0" Grid.Column="1"/>
-        <Button Style="{DynamicResource darkButton}" x:Name="ButtonSelectSongs" Content="select songs" HorizontalAlignment="Left" Height="38" Margin="30,0,0,0" VerticalAlignment="Center" Width="124" Click="ButtonSelectSongs_Click" Grid.Column="1" FontFamily="Viner Hand ITC" FontSize="22" FontWeight="Bold" Grid.Row="1">
-        </Button>
+        <Button Style="{DynamicResource darkButton}" Content="{DynamicResource m_Title}" x:Name="ButtonSelectSongs" HorizontalAlignment="Center" Height="38" VerticalAlignment="Center" Width="191" Click="ButtonSelectSongs_Click" Grid.Column="1" FontFamily="Viner Hand ITC" FontSize="22" FontWeight="Bold" Grid.Row="1"/>
         <Slider x:Name="MediaPlayerSlider" HorizontalAlignment="Left" Margin="14,292,0,0" VerticalAlignment="Top" Width="320" Grid.ColumnSpan="4" Height="18" ValueChanged="MediaPlayerSlider_ValueChanged" Grid.Column="3"/>
         <TextBlock Style="{DynamicResource darkText}" x:Name="TextBlockCurrentTimeSign" HorizontalAlignment="Left" Margin="13,287,0,0" TextWrapping="Wrap" Text="--:--" VerticalAlignment="Top" Height="26" Width="56" FontSize="22" FontFamily="Extr" TextAlignment="Right" Grid.Column="2"/>
         <TextBlock  Style="{DynamicResource darkText}" x:Name="TextBlockSongDuration" HorizontalAlignment="Right" Margin="0,285,14,0" TextWrapping="Wrap" Text="--:--" VerticalAlignment="Top" Height="26" Width="55" FontSize="22" FontFamily="Extr" Grid.Column="6" TextAlignment="Right" Grid.ColumnSpan="2"/>
@@ -58,8 +57,7 @@
             </Button.RenderTransform>
             <Image  x:Name="Again" Source="/повтор.png" Height="44" Width="62" RenderTransformOrigin="0.024,-1.169"/>
         </Button>
-        <Button Style="{DynamicResource darkButton}" Grid.Column="1" Content="Тёмная тема"  Margin="48,306,48,0" VerticalAlignment="Top" Height="31" Width="95" Click="Button_Click"/>
-        <Button  Style="{DynamicResource darkButton}" Grid.Column="1" Content="Синяя тема" HorizontalAlignment="Center" Margin="0,272,0,0" VerticalAlignment="Top" Height="29" Width="95" Click="Button_Click_1"/>
-        <Button Style="{DynamicResource darkButton}" Grid.Column="1" Content="Сделать заметку" HorizontalAlignment="Left" Margin="20,0,0,0" VerticalAlignment="Center" Width="171" Click="Button_Click_2" Grid.ColumnSpan="2" Grid.Row="2"/>
+        <Button Style="{DynamicResource darkButton}" Grid.Column="1" Content="{DynamicResource zam}" HorizontalAlignment="Left" Margin="20,0,0,0" VerticalAlignment="Center" Width="171" Click="Button_Click_2" Grid.ColumnSpan="2" Grid.Row="2"/>
+        <Button Content="{DynamicResource tema}"  Style="{DynamicResource darkButton}" HorizontalAlignment="Center" Margin="0,292,0,0" VerticalAlignment="Top" Height="41" Width="97" Grid.Column="1" Click="Button_Click_3"/>
     </Grid>
 </Window>

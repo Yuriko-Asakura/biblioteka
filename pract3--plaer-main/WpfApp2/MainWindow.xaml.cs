@@ -197,26 +197,16 @@ namespace WpfApp2
             selectSongs();
         }
 
-        private void Button_Click(object sender, RoutedEventArgs e)
-        {
-            var uri = new Uri(@"dark_tema.xaml", UriKind.Relative); 
-            ResourceDictionary resourceDict = Application.LoadComponent(uri) as ResourceDictionary;
-            Application.Current.Resources.Clear(); 
-            Application.Current.Resources.MergedDictionaries.Add(resourceDict);
-        }
-
-        private void Button_Click_1(object sender, RoutedEventArgs e)
-        {
-            var uri = new Uri(@"blue_tema.xaml", UriKind.Relative);
-            ResourceDictionary resourceDict = Application.LoadComponent(uri) as ResourceDictionary;
-            Application.Current.Resources.Clear();
-            Application.Current.Resources.MergedDictionaries.Add(resourceDict);
-        }
-
         private void Button_Click_2(object sender, RoutedEventArgs e)
         {
             zametka z = new zametka();
             z.Show();
+        }
+
+        private void Button_Click_3(object sender, RoutedEventArgs e)
+        {
+            vabor_tem v = new vabor_tem();
+            v.Show();
         }
 
         private void Again1_Click(object sender, RoutedEventArgs e)

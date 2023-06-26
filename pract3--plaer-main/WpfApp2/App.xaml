@@ -2,12 +2,17 @@
              xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
              xmlns:local="clr-namespace:WpfApp2"
+             xmlns:v="clr-namespace:System;assembly=mscorlib"
              StartupUri="MainWindow.xaml">
     <Application.Resources>
         <ResourceDictionary>
             <ResourceDictionary.MergedDictionaries>
                 <ResourceDictionary Source="dark_tema.xaml"/>
                 <ResourceDictionary Source="blue_tema.xaml"/>
+                <ResourceDictionary Source="green_style.xaml"/>
+                <ResourceDictionary Source="pink-style.xaml"/>
+                <ResourceDictionary Source="en.xaml"/>
+                <ResourceDictionary Source="ru.xaml"/>
             </ResourceDictionary.MergedDictionaries>
         </ResourceDictionary>
     </Application.Resources>
